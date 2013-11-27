@@ -3,7 +3,7 @@ ORIG_PN="glade"
 inherit cross gnome2
 
 NAME="mingw64-i686-glade"
-VERSION=3.14.2
+VERSION=3.14.3
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GTK+-3.0 GUI designer for Win32 toolchain"
@@ -17,8 +17,7 @@ PATCH_URI="3.14.2-vpath.patch"
 
 DEPEND="gnome-common gnome-doc-utils gtk-doc
 	pkgconfig(gtk+-3.0)
-	pkgconfig(libxml-2.0)
-	python(gobject)"
+	pkgconfig(libxml-2.0)"
 
 DIFF_EXCLUDES="glade-resources.[ch]"
 
